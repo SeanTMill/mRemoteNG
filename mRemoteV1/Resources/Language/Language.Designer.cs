@@ -6589,6 +6589,15 @@ namespace mRemoteNG {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Show hostname/ip on tab names.
+        /// </summary>
+        internal static string strShowHostnameOnTabs {
+            get {
+                return ResourceManager.GetString("strShowHostnameOnTabs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Show logon information on tab names.
         /// </summary>
         internal static string strShowLogonInfoOnTabs {

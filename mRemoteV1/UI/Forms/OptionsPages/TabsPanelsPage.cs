@@ -21,6 +21,7 @@ namespace mRemoteNG.UI.Forms.OptionsPages
             chkAlwaysShowPanelTabs.Text = Language.strAlwaysShowPanelTabs;
             chkOpenNewTabRightOfSelected.Text = Language.strOpenNewTabRight;
             chkShowLogonInfoOnTabs.Text = Language.strShowLogonInfoOnTabs;
+            chkShowHostnameOnTabs.Text = Language.strShowHostnameOnTabs;
             chkShowProtocolOnTabs.Text = Language.strShowProtocolOnTabs;
             chkIdentifyQuickConnectTabs.Text = Language.strIdentifyQuickConnectTabs;
             chkDoubleClickClosesTab.Text = Language.strDoubleClickTabClosesIt;
@@ -36,6 +37,7 @@ namespace mRemoteNG.UI.Forms.OptionsPages
             chkAlwaysShowPanelTabs.Checked = Settings.Default.AlwaysShowPanelTabs;
             chkOpenNewTabRightOfSelected.Checked = Settings.Default.OpenTabsRightOfSelected;
             chkShowLogonInfoOnTabs.Checked = Settings.Default.ShowLogonInfoOnTabs;
+            chkShowHostnameOnTabs.Checked = Settings.Default.ShowHostnameOnTabs;
             chkShowProtocolOnTabs.Checked = Settings.Default.ShowProtocolOnTabs;
             chkIdentifyQuickConnectTabs.Checked = Settings.Default.IdentifyQuickConnectTabs;
             chkDoubleClickClosesTab.Checked = Settings.Default.DoubleClickOnTabClosesIt;
@@ -54,6 +56,7 @@ namespace mRemoteNG.UI.Forms.OptionsPages
 
             Settings.Default.OpenTabsRightOfSelected = chkOpenNewTabRightOfSelected.Checked;
             Settings.Default.ShowLogonInfoOnTabs = chkShowLogonInfoOnTabs.Checked;
+            Settings.Default.ShowHostnameOnTabs = chkShowHostnameOnTabs.Checked;
             Settings.Default.ShowProtocolOnTabs = chkShowProtocolOnTabs.Checked;
             Settings.Default.IdentifyQuickConnectTabs = chkIdentifyQuickConnectTabs.Checked;
             Settings.Default.DoubleClickOnTabClosesIt = chkDoubleClickClosesTab.Checked;
