@@ -129,6 +129,11 @@ namespace mRemoteNG.UI.Window
                     nTab.Title += @")";
                 }
 
+                if (Settings.Default.ShowHostnameOnTabs)
+                {
+                    nTab.Title += $" [{connectionInfo.Hostname}]";
+                }
+
                 nTab.Title = nTab.Title.Replace("&", "&&");
 
                 var conIcon = ConnectionIcon.FromString(connectionInfo.Icon);
